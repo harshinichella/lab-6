@@ -3,24 +3,38 @@
   background-color: blue;
   overflow: hidden;
   width: 100%;
+  position: relative;
 }
 
 #navbar-container {
-  position: relative
+  position: relative;
+  float: left; 
+  display: block;
+  left: 50%
 }
 
 #navbar-containter ul {
+  float: left; 
+  position: relative; 
   left: 50%;
-  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+  display: block;
 }
 
-#navbar-container li{
+#navbar-container ul li{
+  float: left; 
   list-style-type: none;
+  right: 50%; 
+  display: block; 
 }
 
 #navbar-container ul li a {  
   color: #fff; 
   text-decoration: none;
+  padding: 10px 20px; 
+  display: block;
+  background-color: #000;
 }
   
 #navbar-container #onpage a {
@@ -49,8 +63,7 @@ padding: 10px 20px;
 color: #fff;
 text-decoration: none; 
 background-color: #000; 
-text-decoration: 
-underline overline;
+text-decoration: underline overline;
 
 */
 
