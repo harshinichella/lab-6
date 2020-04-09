@@ -2,60 +2,91 @@
 #main-navbar {
   background-color: blue;
   overflow: hidden;
-  width: 100%;
-  position: relative;
+  /*position: relative;*/
+  /*display: block;*/
 }
 
 #navbar-container {
   position: relative;
+  width: 100%;
   float: left; 
-  display: block;
-  left: 50%
 }
 
-#navbar-containter ul {
-  float: left; 
+#navbar-container ul {
   position: relative; 
-  left: 50%;
   margin: 0; 
   padding: 0; 
-  display: block;
+  left: 50%
+  float: left;
+  list-style-type: none;
 }
 
 #navbar-container ul li{
-  float: left; 
-  list-style-type: none;
+  position: relative; 
+  float: left;
+  background-color: #000;
   right: 50%; 
-  display: block; 
+  display: block;
 }
 
 #navbar-container ul li a {  
   color: #fff; 
+  display: block;
   text-decoration: none;
   padding: 10px 20px; 
-  display: block;
-  background-color: #000;
 }
   
 #navbar-container #onpage a {
   text-decoration: underline overline;
 }
 
+#sidebar {
+  background-color: red; 
+  width: 20%;
+  height: 100%; 
+  right:0%; 
+  position: fixed; 
+}
+
+#sidebar ul {
+  padding: 0;
+  text-align: center; 
+  list-style-type: none; 
+}
+
+#sidebar ul li {
+
+}
+
+#sidebar ul li a {
+  color: #fff; 
+  text-decoration: none; 
+  display: block;
+  padding: 15px 0;
+  background-color: #000;
+}
+
+
+/*For sidebar
+
+
+*/
+
 /*For navigation
 
 background-color: blue; 
 overflow: hidden;
-float: left;
 width: 100%;
+position: relative; 
+position: relative; 
 position: relative; 
 list-style-type: none; 
 margin: 0;
 padding: 0;
-position: relative;
 left: 50%;
 float: left;
 float: left;
-position: relative;
+float: left;
 right: 50%;
 display: block;
 display: block;
@@ -64,23 +95,5 @@ color: #fff;
 text-decoration: none; 
 background-color: #000; 
 text-decoration: underline overline;
-
-*/
-
-/*For sidebar
-
-position: fixed; 
-right:0%; 
-background-color: red; 
-height: 100%;
-width: 20%; 
-list-style-type: none; 
-text-align: center; 
-padding: 0;
-display: block;
-padding: 15px 0;
-color: #fff; 
-text-decoration: none; 
-background-color: #000;
 
 */
