@@ -38,6 +38,7 @@
   text-decoration: underline overline;
 }
 
+/*side bar for all 3 pages*/
 #sidebar {
   background-color: red; 
   width: 20%;
